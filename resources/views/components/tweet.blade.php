@@ -1,6 +1,4 @@
-@props([
-    'tweet',
-])
+@props(['tweet'])
 
 <div class="card">
     <div class="card-body py-4 px-7">
