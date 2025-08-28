@@ -8,7 +8,7 @@ use App\Http\Controllers\RegisterController;
 
 use Illuminate\Support\Facades\Route;
 
-Route::get("/name-banan", [TweetController::class, "index"])
+Route::get("/", [TweetController::class, "index"])
 ->name('home');
 
 Route::post("/logout",LogoutController::class )
