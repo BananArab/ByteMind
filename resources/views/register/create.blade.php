@@ -24,7 +24,7 @@
         <button type="submit" class="btn btn-primary w-full mt-8 text-white">انشاء الحساب</button>
         <span class="text-white">
             عندك حساب؟
-            <a href="/Login" class="link link-animated text-white">سجل دخول</a>
+            <a href="/login" class="link link-animated text-white">سجل دخول</a>
         </span>
     </form>
 </x-layouts.auth>
