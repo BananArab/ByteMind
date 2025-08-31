@@ -7,7 +7,7 @@
         <button type="submit" class="btn btn-primary w-full mt-8 text-white">تسجيل دخول</button>
         <span class="text-white">
             ما عندك حساب؟
-            <a href="/Register" class="link link-animated text-white ">انشئ حساب</a>
+            <a href="/register" class="link link-animated text-white ">انشئ حساب</a>
         </span>
     </form>
 </x-layouts.auth>
