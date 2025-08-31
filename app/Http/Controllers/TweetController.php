@@ -15,7 +15,7 @@ class TweetController extends Controller
         ->orderByDesc("created_at")
         ->limit(30)
         ->get();
-        return view("tweet.index", compact("tweets"));
+        return view("index", compact("tweets"));
     }
 
     function view(Tweet $tweet)
