@@ -20,13 +20,13 @@ Route::post("/tweet/create", [TweetController::class, "store"] )
 ->name("tweet.create");
 
 
-Route::get("/Login", [LoginController::class, "create"])
+Route::get("/login", [LoginController::class, "create"])
 ->name('login');
-Route::post('/Login', [LoginController::class,'store']);
+Route::post('/login', [LoginController::class,'store']);
 
-Route::get("/Register", [RegisterController::class, "create"])
+Route::get("/register", [RegisterController::class, "create"])
 ->name('register');
-Route::post("/Register", [RegisterController::class, "store"]);
+Route::post("/register", [RegisterController::class, "store"]);
 
 Route::get("/test/{x}/{y}/{z}", function($x,$y,$z) {
     return min($x, $y, $z);
