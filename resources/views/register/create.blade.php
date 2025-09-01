@@ -1,5 +1,5 @@
 <x-layouts.auth>
-    <form method="post" enctype="multipart/form-data" class="space-y-4 w-100 mx-auto">
+    <form method="post" enctype="multipart/form-data" class="space-y-4">
         @csrf
 
         <div class=" input-floating">
