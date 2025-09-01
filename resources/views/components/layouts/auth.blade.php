@@ -1,7 +1,7 @@
 <x-layouts.default>
     <div class="flex flex-col justify-center items-center min-h-[100vh]">
         <div class="mb-12 items-center">
-            <h1 class="text-[100px] font-bold text-white">
+            <h1 class="text-3xl font-bold text-white">
                 ByteMind
                 <span class="icon-[tabler--code] size-12 text-white"></span>
             </h1>
